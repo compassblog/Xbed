@@ -1,0 +1,22 @@
+/*@media screen and (min-width: 1352px) {*/
+    /*.header,.main1,.footer_pre {*/
+        /*width: 1352px;*/
+    /*}*/
+/*}*/
+
+@media screen and (max-width: 1352px){
+    .main1,.footer_pre,.footer {
+        width: 1350px;
+    }
+}
+@media screen and (max-width: 840px){
+    .header {
+        width: 800px;
+    }
+}
+
+@media screen and (max-width: 1097px){
+    .form {
+        width: 1097px;
+    }
+}

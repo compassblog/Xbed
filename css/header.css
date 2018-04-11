@@ -1,0 +1,34 @@
+/* 导航栏样式 */
+.header {
+    width: 100%;
+    height: 98px;
+    background-color: ghostwhite;
+
+}
+
+/* logo 样式 */
+.logo {
+    float: left;
+    margin-left: 77px;
+    margin-top: 24px;
+}
+
+/* 菜单栏样式 */
+.nav {
+    float: right;
+    margin-top: 52px;
+}
+
+/* 超链接转换 */
+a:hover {
+    color: lightseagreen;
+}
+
+.nav li a {
+
+    margin-right: 47px;
+    cursor: pointer;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    letter-spacing: 1px;
+}

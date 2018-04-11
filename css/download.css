@@ -1,0 +1,79 @@
+.center_box {
+    width: 735px;
+    margin: 0px auto;
+}
+
+.center_box_left {
+    width: 370px;
+    height: 400px;
+    margin: 40px auto;
+    float: left;
+}
+
+.center_box_right {
+    margin: 40px auto;
+    float: left;
+}
+
+.center_box_title {
+    font-size: 40px;
+    color: #fff;
+    letter-spacing: 5px;
+    /*width: 355px;*/
+}
+
+.center_box_detail {
+    margin-top: 10px;
+    width: 355px;
+    opacity: .85;
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 5.04px;
+}
+
+.center_box_qcode {
+    margin-top: 10px;
+}
+
+.center_box_qcode_detail {
+    width: 157px;
+    opacity: .85;
+    font-size: 13px;
+    color: #fff;
+    letter-spacing: 2px;
+    padding-top: 40px;
+    margin-right: 20px;
+    float: left;
+}
+
+.center_box_ios {
+    float: left;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.center_box_ios_title {
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 2px;
+    height: 52px;
+    line-height: 52px;
+}
+
+.center_box_ios_button {
+    background: #0ba49c;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 2px;
+    width: 158px;
+    height: 52px;
+    line-height: 52px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+}
+
+.center_box_ios_button a {
+    color: #fff;
+}

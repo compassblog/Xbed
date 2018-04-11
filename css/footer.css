@@ -1,0 +1,62 @@
+.footer {
+    background-image: url("../images/footer.png");
+    width: 100%;
+    height: 331px;
+    margin-bottom: 70px;
+}
+
+.local_a {
+    color: white;
+    padding-top: 163px;
+    margin-left: 478px;
+}
+
+.local_a a{
+    color: white;
+}
+
+.local_a a:hover {
+    color: lightseagreen;
+    text-decoration: underline;
+}
+
+.loc_a {
+    margin-right: 50px;
+}
+
+.copyright {
+    color: white;
+    margin-top: 15px;
+    margin-left: 450px;
+}
+
+.footer_bg_line {
+    margin: 12px auto;
+    width: 100%;
+    height: 2px;
+    background-color: ghostwhite;
+    opacity: .25;
+}
+
+.friend_a_title {
+    font-size: 13px;
+    color: white;
+    margin-left: 300px;
+    padding-top: 5px;
+    float: left;
+}
+
+.friend_a {
+    float: left;
+    width: 770px;
+}
+
+.friend_a a{
+    font-size: 13px;
+    color: white;
+}
+
+.friend_a a:hover {
+    color: lightseagreen;
+    text-decoration: underline;
+}

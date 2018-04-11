@@ -1,0 +1,150 @@
+.coo_bg_photo {
+    background-image: url("../images/cooperate.png");
+    width: 100%;
+    height: 293px;
+}
+
+.coo_box_top {
+    width: 1146px;
+    height: 142px;
+    border: 2px solid lightgray;
+    margin: 30px auto;
+}
+
+.coo_box_top_font {
+    width: 712px;
+    margin:15px auto;
+    text-align: left;
+    color: #ababab;
+    letter-spacing: 2.8px;
+    line-height: 26px;
+}
+
+.coo_box_top_font_t {
+    text-align: right;
+}
+
+.coo_box_bottom_even {
+    width: 528px;
+    height: 163px;
+    border: 2px solid lightgray;
+    margin-left: 314px;
+    padding: 50px 20px;
+}
+
+.box_cc {
+    line-height: 42px;
+    margin-bottom: 4px;
+}
+
+.box_tt {
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #ababab;
+    line-height: 30px;
+}
+
+.coo_cc_left {
+    float: left;
+}
+
+.coo_cc_right {
+    float: left;
+    padding-top: 50px;
+    margin-left: 60px;
+}
+
+.coo_box_bottom_odd {
+    width: 528px;
+    height: 163px;
+    border: 2px solid lightgray;
+    margin-top: 30px;
+    margin-left: 507px;
+    padding: 50px 20px;
+}
+
+.coo_join_font {
+    margin: 30px auto;
+    text-align: center;
+    font-size: 16px;
+    color: #616161;
+    letter-spacing: 2px;
+}
+
+.name {
+    width: 402px;
+    height: 40px;
+    border: 2px solid lightgray;
+    padding-left: 34px;
+    margin: 30px auto;
+    margin-left: 396px;
+    float: left;
+}
+
+.radio {
+    cursor: pointer;
+    margin-top: 40px;
+    margin-right: 20px;
+    float: left;
+}
+
+.phone_num,.address {
+    width: 557px;
+    height: 40px;
+    border: 2px solid lightgray;
+    padding-left: 34px;
+    margin-left: 396px;
+}
+
+.select {
+    margin-top: 30px;
+    margin-left: 398px;
+}
+
+.select_1,.select_2,.select_3 {
+    float: left;
+    margin-right: 47px;
+    width: 166px;
+    height: 40px;
+    border: 2px solid lightgray;
+}
+
+.textarea {
+    width: 587px;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 396px;
+    border: 2px solid lightgray;
+    padding-left: 34px;
+    padding-top: 20px;
+}
+
+.know_us {
+    margin-top: 30px;
+    margin-left: 396px;
+    color: #757575;
+}
+
+.way {
+    margin-right: 20px;
+}
+
+.submit_box {
+    width: 250px;
+    height: 25px;
+    margin-top: 30px;
+    margin-left: 396px;
+    text-align: center;
+    padding-top: 7px;
+    font-size: 14px;
+    border-radius:5px;
+    background-color: #0BA49C;
+    cursor: pointer;
+}
+
+.consult {
+    margin-left: 396px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    color: #616179;
+}

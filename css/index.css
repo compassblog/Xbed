@@ -1,0 +1,191 @@
+
+/* Xbed 模块样式 */
+.main1 {
+    width: 100%;
+    height: 700px;
+    margin: 0 auto;
+    background-color: #F0F5F5;
+}
+
+.left {
+    float: left;
+    margin-left: 120px;
+}
+
+.right {
+    float: right;
+    margin-top: 70px;
+    margin-right: 100px;
+}
+
+.bg_font {
+    opacity: .04;
+    font-family: "Microsoft YaHei UI";
+    font-size: 190px;
+    color: #4e545a;
+    letter-spacing: 25px;
+    position: absolute;
+    z-index: 0;
+    top: 600px;
+    left: 90px;
+}
+
+.title {
+    font-family: "Microsoft YaHei UI";
+    font-size: 34px;
+    color: #002400;
+    letter-spacing: 20px;
+    height: 230px;
+    line-height: 230px;
+    margin: 10px 70px;
+}
+
+.line {
+    width: 100px;
+    height: 3px;
+    background: #0ba49c;
+    margin: 0 auto;
+}
+
+.font {
+    margin: 20px auto;
+    font-size: 15px;
+    letter-spacing: 5px;
+    color: #4e545a;
+    text-align: center;
+}
+
+.xbed_wechat {
+    margin-top: 50px;
+    margin-left: 220px;
+}
+
+.mod_insert {
+    width: 1110px;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    top: 1130px;
+    left: 110px;
+
+    -moz-box-shadow: 10px 10px 5px #888888; /* 老的 Firefox */
+    box-shadow: 1px 1px 1px whitesmoke;
+}
+
+.mod_list1 {
+    width: 277px;
+    height: 418px;
+    float: left;
+}
+
+.mod_list_logo1 {
+    padding-top: 89px;
+    padding-left: 65px;
+}
+
+.bg_font_h {
+    position: absolute;
+    z-index: 999999;
+    top: -30px;
+    height: 214px;
+    line-height: 214px;
+    margin-top: 30px;
+    left: 40px;
+    opacity: .05;
+    font-family: Oswald-Medium;
+    font-size: 144px;
+    color: #616161;
+}
+
+.font_1 {
+    font-family: PingFangSC-Medium;
+    font-size: 18px;
+    color: #616161;
+    letter-spacing: 4px;
+    margin: 50px 40px;
+}
+
+.font_2 {
+    font-size: 14px;
+    margin-left: 40px;
+}
+
+.font_2 p {
+    margin-bottom: 10px;
+}
+
+.footer_line {
+    margin-top: 230px;
+    width: 100%;
+    height: 2px;
+    background-color: whitesmoke;
+}
+
+.box_1 {
+    cursor: pointer;
+    width: 307px;
+    height: 347px;
+    margin-top: 43px;
+    margin-left: 110px;
+    float: left;
+}
+
+.box_1:hover {
+    box-shadow: 7px 7px 7px lightgray;
+}
+
+.info_time {
+    color: #ababab;
+    font-size: 13px;
+}
+
+.info_title {
+    margin-top: 10px;
+    font-family: PingFangSC-Medium;
+    font-size: 20px;
+    line-height: 1.5;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.info {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #ababab;
+    letter-spacing: 1.38px;
+    height: 49px;
+}
+
+.footer_pre {
+    margin-bottom: 440px;
+}
+
+.footer_pre_line {
+    margin-top: 43px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 2px;
+    height: 347px;
+    background-color: lightgray;
+    float: left;
+}
+
+.footer_button {
+    cursor: pointer;
+    height: 37px;
+    width: 117px;
+    color: lightseagreen;
+    margin: 50px auto;
+    padding-top: 20px;
+    padding-left: 70px;
+    border: 2px solid lightseagreen;
+}
+
+.footer_button:hover {
+    box-shadow: 7px 7px 7px lightseagreen;
+}
+
+
+

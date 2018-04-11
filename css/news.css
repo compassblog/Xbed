@@ -1,0 +1,63 @@
+.new_t_font,.coo_font,.about_font {
+    color: #fff;
+    padding-top: 100px;
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 10px;
+}
+
+.new_type {
+    text-align: center;
+    padding-top: 64px;
+}
+
+.new_type_a {
+    margin-right: 70px;
+}
+
+.new_type_a a {
+    color: #ababab;
+}
+
+.new_type_a a:hover {
+    color: black;
+}
+
+.new_line {
+    width: 100%;
+    height: 2px;
+    margin-top: 30px;
+    /*opacity: .6;*/
+    background-color: lightgray;
+}
+
+.new_box {
+    width: 735px;
+    height: 179px;
+    border: 2px solid lightgray;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+.new_box:hover {
+    /*box-shadow: 1px 1px 1px 1px lightseagreen;*/
+    box-shadow: 1px 1px 3px 3px lightseagreen;
+}
+
+.new_img {
+    float: left;
+}
+
+.new_info {
+    padding-left: 320px;
+}
+
+.read_more {
+    font-size: 12px;
+    color: lightseagreen;
+    letter-spacing: 1.3px;
+}
+
+.read_more a {
+    color: lightseagreen;
+}
