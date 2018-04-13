@@ -60,13 +60,16 @@
     margin-left: 220px;
 }
 
+/*上下改变，左右居中*/
 .mod_insert {
     width: 1110px;
     height: 400px;
     background-color: white;
     position: absolute;
-    top: 1130px;
-    left: 110px;
+    left: 50%;
+    top: 1330px;
+    transform: translate(-50%, -50%); /* 50%为自身尺寸的一半 */
+    -webkit-transform: translate(-50%, -50%);
 
     -moz-box-shadow: 10px 10px 5px #888888; /* 老的 Firefox */
     box-shadow: 1px 1px 1px whitesmoke;
@@ -156,6 +159,17 @@
     color: #ababab;
     letter-spacing: 1.38px;
     height: 49px;
+
+    position: relative; line-height: 20px; max-height: 40px;overflow: hidden;
+}
+
+/*设置多行文本溢出显示省略号*/
+.info::after {
+    content: "..."; position: absolute; bottom: 0; right: 0; padding-left: 40px;
+    background: -webkit-linear-gradient(left, transparent, #fff 55%);
+    background: -o-linear-gradient(right, transparent, #fff 55%);
+    background: -moz-linear-gradient(right, transparent, #fff 55%);
+    background: linear-gradient(to right, transparent, #fff 55%);
 }
 
 .footer_pre {
