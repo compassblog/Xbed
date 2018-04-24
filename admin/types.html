@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xbed 后台-新闻分类</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css">
+    <link rel="stylesheet" href="../css/me.css">
+</head>
+<body>
+
+<!--导航-->
+<nav class="ui inverted attached segment m-padded-tb-mini m-shadow-small" >
+    <div class="ui container">
+        <div class="ui inverted secondary stackable menu">
+            <h2 class="ui teal header item">Xbed管理后台</h2>
+            <a href="news.html" class=" m-item item m-mobile-hide"><i class="mini home icon"></i>新闻管理</a>
+            <a href="types.html" class="active m-item item m-mobile-hide"><i class="mini idea icon"></i>新闻分类</a>
+            <a href="user-info.html" class=" m-item item m-mobile-hide"><i class="mini user icon"></i>加盟用户</a>
+            <div class="right m-item m-mobile-hide menu">
+                <div class="ui dropdown  item">
+                    <div class="text">
+                        <img class="ui avatar image" src="https://images.unsplash.com/photo-1522204709263-68a23e3937c2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=872aeccd45136671f2333e347a91442d&auto=format&fit=crop&w=750&q=80">
+                        管理员
+                    </div>
+                    <i class="dropdown icon"></i>
+                    <div class="menu">
+                        <a href="#" class="item">注销</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="ui menu toggle black icon button m-right-top m-mobile-show">
+        <i class="sidebar icon"></i>
+    </a>
+</nav>
+<div class="ui attached pointing menu">
+    <div class="ui container">
+        <div class="right menu">
+            <a href="types-input.html" class="item">新增分类</a>
+            <a href="types.html" class="teal active item">分类列表</a>
+        </div>
+    </div>
+</div>
+
+<!--中间内容-->
+<div  class="m-container-small m-padded-tb-big">
+    <div class="ui container">
+        <table class="ui celled table">
+            <thead>
+            <tr>
+                <th></th>
+                <th>分类名称</th>
+                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>1</td>
+                <td>集团新闻</td>
+                <td>
+                    <a href="#" class="ui mini teal basic button">编辑</a>
+                    <a href="#" class="ui mini red basic button">删除</a>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>媒体新闻</td>
+                <td>
+                    <a href="#" class="ui mini teal basic button">编辑</a>
+                    <a href="#" class="ui mini red basic button">删除</a>
+                </td>
+            </tr>
+            </tbody>
+            <tfoot>
+            <tr>
+                <th colspan="6">
+                    <div class="ui mini pagination menu">
+                        <a class=" item">上一页</a>
+                        <a class=" item">下一页</a>
+                    </div>
+                    <a href="#" class="ui mini right floated teal basic button">新增</a>
+                </th>
+            </tr>
+            </tfoot>
+        </table>
+    </div>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<!--底部footer-->
+<footer class="ui inverted vertical segment">
+    <div class="ui center aligned container">
+
+        <p class="m-text-thin m-text-spaced m-padded-tb">粤ICP备15055262号 &nbsp;&nbsp; © Xbed Corporation.All Rights Reserved</p>
+    </div>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js"></script>
+
+<script>
+    $('.menu.toggle').click(function () {
+        $('.m-item').toggleClass('m-mobile-hide');
+    });
+
+    $('.ui.dropdown').dropdown({
+        on : 'hover'
+    });
+
+</script>
+</body>
+</html>
